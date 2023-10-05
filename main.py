@@ -17,6 +17,4 @@ if __name__ == '__main__':
 
     r = select_route(routes)
 
-    r.print()
-
     r.start_huntin(p)

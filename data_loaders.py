@@ -50,7 +50,7 @@ def select_route(routes):
     print(f'\nselect a section of {selected_region}-{selected_route}:')
     for section in routes[selected_region][selected_route]:
         # legendaries are locked for now
-        if section != 'static-L':
+        if section != 'static-L' or section != 'odds':
             print(f'{section}')
     print('')
     selected_section = input()
