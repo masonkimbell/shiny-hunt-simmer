@@ -1,6 +1,6 @@
 {
     "hoenn": {
-        "odds": 8,
+        "odds": 8192,
         "starter": {
             "starter": {
                 "encounters": {
