@@ -25,7 +25,8 @@ class Route:
     def print(self):
         enc_list = f'\nencounters on {self.name}:\n'
         for idx, _ in enumerate(self.encounters):
-            enc_list += f' - {self.map[self.encounters[idx]]} @ {self.encounter_rates[idx]}%\n'
+            enc_rate = self.encounter_rates[idx] if self.encounter_rates[idx] <= 99 else 99
+            enc_list += f' - {self.map[self.encounters[idx]]} @ {enc_rate}%\n'
         print(enc_list)
 
     def start_huntin(self, player: Player):

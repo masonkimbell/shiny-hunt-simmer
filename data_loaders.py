@@ -1,4 +1,5 @@
 import json
+import random
 
 from player import Player
 from route import Route
@@ -28,6 +29,8 @@ def select_player(players, name: str):
     return p
 
 def select_route(routes):
+    LOCKED_AREAS = ['birth_island', 'faraway_island']
+
     # select region
     print(f'\nselect a region:')
     for region in routes:
@@ -41,16 +44,28 @@ def select_route(routes):
     # select route in that region
     print(f'\nselect a route in {selected_region}:')
     for route in routes[selected_region]:
-        print(f'{route}')
+        if route != 'odds' and route not in LOCKED_AREAS:
+            if 'mirage' in route:
+                if random.randint(1, 5) == 1:
+                    print(f'{route}')
+            else:
+                print(f'{route}')
     print('')
     selected_route = input()
     print(f'\n{selected_route} selected .')
+
+    # exit if the only section of that route is a legendary encounter
+    for key in routes[selected_region][selected_route].keys():
+        if "static_legendary" not in key:
+            break
+        print('nothing here... yet')
+        exit()
 
     # select section of that route
     print(f'\nselect a section of {selected_region}-{selected_route}:')
     for section in routes[selected_region][selected_route]:
         # legendaries are locked for now
-        if section != 'static-L' and section != 'odds':
+        if section != 'static_legendary' and section != 'odds':
             print(f'{section}')
     print('')
     selected_section = input()

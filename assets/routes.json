@@ -1,8 +1,20 @@
 {
+	"kanto": {
+		"odds": 8192,
+		"starter": {
+			"gift": {
+				"encounters": {
+					"0001": 33,
+					"0004": 33,
+					"0007": 33
+				}
+			}
+		}
+	},
     "hoenn": {
         "odds": 8192,
         "starter": {
-            "starter": {
+            "gift": {
                 "encounters": {
                     "0252": 33,
                     "0255": 33,
@@ -51,7 +63,7 @@
 			}
 		},
 		"birth_island": {
-			"static-L": {
+			"static_mythical": {
 				"encounters": {
 					"0386": 100
 				}
@@ -103,6 +115,71 @@
 					"0303": 15,
 					"0042": 10
 				}		
+			}
+		},
+		"desert_underpass": {
+			"wild": {
+				"encounters": {
+					"0132": 50,
+					"0293": 34,
+					"0294": 16
+				}
+			}
+		},
+		"dewford_town": {
+			"fish_old": {
+				"encounters": {
+					"0129": 70,
+					"0072": 30
+				}
+			},
+			"fish_good": {
+				"encounters": {
+					"0129": 60,
+					"0072": 20,
+					"0320": 20
+				}
+			},
+			"fish_super": {
+				"encounters": {
+					"0320": 100
+				}
+			}
+		},
+		"evergrande_city": {
+            "surf": {
+                "encounters": {
+					"0072": 60,
+					"0278": 35,
+					"0279": 5
+				}
+            },
+			"fish_old": {
+				"encounters": {
+					"0129": 70,
+					"0072": 30
+				}
+			},
+			"fish_good": {
+				"encounters": {
+					"0129": 60,
+					"0370": 20,
+					"0320": 20
+				}
+			},
+			"fish_super": {
+				"encounters": {
+					"0320": 45,
+					"0370": 40,
+					"0222": 15
+				}
+			}
+		},
+		"faraway_island": {
+			"static_mythical": {
+				"encounters": {
+					"0151": 100
+				}
 			}
 		},
 		"fiery_path": {
@@ -160,12 +237,402 @@
 				}
 			}
 		},
+		"jagged_pass": {
+			"wild": {
+				"encounters": {
+					"0322": 55,
+					"0066": 25,
+					"0325": 20
+				}
+			}
+		},
+		"lavaridge_town": {
+			"gift_egg": {
+				"0360": 100
+			}
+		},
+		"lilycove_city": {
+			"surf": {
+				"encounters": {
+					"0072": 60,
+					"0278": 35,
+					"0279": 5
+				}
+			},
+			"fish_old": {
+				"encounters": {
+					"0129": 70,
+					"0072": 30
+				}
+			},
+			"fish_good": {
+				"encounters": {
+					"0129": 60,
+					"0072": 20,
+					"0320": 20
+				}
+			},
+			"fish_super": {
+				"encounters": {
+					"0320": 85,
+					"0120": 15
+				}
+			}
+		},
 		"magma_hideout": {
 			"static": {
 				"encounters": {
 					"0101": 100
 				}
 			}
+		},
+		"marine_cave": {
+			"static_legendary": {
+				"encounters": {
+					"0382": 100
+				}
+			}
+		},
+		"meteor_falls": {
+			"1f-1_wild": {
+				"encounters": {
+					"0041": 80,
+					"0337": 10,
+					"0338": 10
+				}
+			},
+			"1f-1_surf": {
+				"encounters": {
+					"0042": 90,
+					"0337": 5,
+					"0338": 5
+				}
+			},
+			"1f-1_fish_old": {
+				"encounters": {
+					"0129": 70,
+					"0118": 30
+				}
+			},
+			"1f-1_fish_good": {
+				"encounters": {
+					"0129": 60,
+					"0118": 20,
+					"0339": 20
+				}
+			},
+			"1f-1_fish_super": {
+				"encounters": {
+					"0339": 100
+				}
+			},
+			"1f-2_wild": {
+				"encounters": {
+					"0042": 64,
+					"0337": 18,
+					"0338": 18
+				}
+			},
+			"1f-2_surf": {
+				"encounters": {
+					"0042": 90,
+					"0337": 5,
+					"0338": 5
+				}
+			},
+			"1f-2_fish_old": {
+				"encounters": {
+					"0129": 70,
+					"0118": 30
+				}
+			},
+			"1f-2_fish_good": {
+				"encounters": {
+					"0129": 60,
+					"0118": 20,
+					"0339": 20
+				}
+			},
+			"1f-2_fish_super": {
+				"encounters": {
+					"0339": 80,
+					"0340": 20
+				}
+			},
+			"b1f-1_wild": {
+				"encounters": {
+					"0042": 64,
+					"0337": 18,
+					"0338": 18
+				}
+			},
+			"b1f-1_surf": {
+				"encounters": {
+					"0042": 90,
+					"0337": 5,
+					"0338": 5
+				}
+			},
+			"b1f-1_fish_old": {
+				"encounters": {
+					"0129": 70,
+					"0118": 30
+				}
+			},
+			"b1f-1_fish_good": {
+				"encounters": {
+					"0129": 60,
+					"0118": 20,
+					"0339": 20
+				}
+			},
+			"b1f-1_fish_super": {
+				"encounters": {
+					"0339": 80,
+					"0340": 20
+				}
+			},
+			"b1f-2_wild": {
+				"encounters": {
+					"0042": 51,
+					"0371": 25,
+					"0337": 12,
+					"0338": 12
+				}
+			},
+			"b1f-2_surf": {
+				"encounters": {
+					"0042": 90,
+					"0337": 5,
+					"0338": 5
+				}
+			},
+			"b1f-2_fish_old": {
+				"encounters": {
+					"0129": 70,
+					"0118": 30
+				}
+			},
+			"b1f-2_fish_good": {
+				"encounters": {
+					"0129": 60,
+					"0118": 20,
+					"0339": 20
+				}
+			},
+			"b1f-2_fish_super": {
+				"encounters": {
+					"0339": 80,
+					"0340": 20
+				}
+			},
+			"1f-3_wild": {
+				"encounters": {
+					"0042": 65,
+					"0338": 35
+				}
+			}
+		},
+		"mirage_island": {
+			"wild": {
+				"encounters": {
+					"0360": 100
+				}
+			}
+		},
+		"mirage_tower": {
+			"1f_wild": {
+				"encounters": {
+					"0027": 50,
+					"0328": 50
+				}
+			},
+			"2f_wild": {
+				"encounters": {
+					"0027": 50,
+					"0328": 50
+				}
+			},
+			"3f_wild": {
+				"encounters": {
+					"0027": 50,
+					"0328": 50
+				}
+			},
+			"4f_wild": {
+				"encounters": {
+					"0027": 50,
+					"0328": 50
+				}
+			}
+		},
+		"mossdeep_city": {
+			"gift": {
+				"encounters": {
+					"0374": 100
+				}
+			},
+			"surf": {
+				"encounters": {
+					"0072": 60,
+					"0278": 35,
+					"0279": 5
+				}
+			},
+			"fish_old": {
+				"encounters": {
+					"0129": 70,
+					"0072": 30
+				}
+			},
+			"fish_good": {
+				"encounters": {
+					"0129": 60,
+					"0072": 20,
+					"0320": 20
+				}
+			},
+			"fish_super": {
+				"encounters": {
+					"0320": 60,
+					"0319": 40
+				}
+			}
+		},
+		"mt_pyre": {
+			"1f_wild": {
+				"encounters": {
+					"0353": 50,
+					"0355": 50
+				}
+			},
+			"2f_wild": {
+				"encounters": {
+					"0353": 50,
+					"0355": 50
+				}
+			},
+			"3f_wild": {
+				"encounters": {
+					"0353": 50,
+					"0355": 50
+				}
+			},
+			"4f_wild": {
+				"encounters": {
+					"0353": 50,
+					"0355": 50
+				}
+			},
+			"5f_wild": {
+				"encounters": {
+					"0353": 50,
+					"0355": 50
+				}
+			},
+			"6f_wild": {
+				"encounters": {
+					"0353": 50,
+					"0355": 50
+				}
+			},
+			"outside_wild": {
+				"encounters": {
+					"0307": 30,
+					"0353": 20,
+					"0355": 20,
+					"0037": 20,
+					"0278": 10
+				}
+			},
+			"summit_wild": {
+				"encounters": {
+					"0353": 49,
+					"0355": 49,
+					"0358": 2
+				}
+			}
+		},
+		"navel_rock": {
+			"50f_static_legendary": {
+				"encounters": {
+					"0250": 100
+				}
+			},
+			"b50f_static_legendary": {
+				"encounters": {
+					"0249": 100
+				}
+			}
+		},
+		"new_mauville": {
+			"entrance_wild": {
+				"encounters": {
+					"0081": 50,
+					"0100": 50
+				}
+			},
+			"inside_wild": {
+				"encounters": {
+					"0081": 49,
+					"0100": 49,
+					"0082": 1,
+					"0101": 1
+				}
+			}
+		},
+		"pacifidlog_town": {
+			"surf": {
+				"encounters": {
+					"0072": 60,
+					"0278": 35,
+					"0279": 5
+				}
+			},
+			"fish_old": {
+				"encounters": {
+					"0129": 70,
+					"0072": 30
+				}
+			},
+			"fish_good": {
+				"encounters": {
+					"0129": 60,
+					"0072": 20,
+					"0320": 20
+				}
+			},
+			"fish_super": {
+				"encounters": {
+					"0320": 60,
+					"0319": 40
+				}
+			}
+		},
+		"petalburg_city": {
+			"surf": {
+                "encounters": {
+					"0183": 100
+				}
+            },
+            "fish_old": {
+                "encounters": {
+					"0129": 70,
+					"0118": 30
+				}
+            },
+            "fish_good": {
+                "encounters": {
+					"0129": 60,
+					"0118": 20,
+					"0341": 20
+				}
+            },
+            "fish_super": {
+                "encounters": {
+					"0341": 100
+				}
+            }
 		},
 		"petalburg_woods": {
 			"wild": {
@@ -181,10 +648,522 @@
 				}
 			}
 		},
+		"rustboro_city": {
+			"fossil_restore": {
+				"encounters": {
+					"0345": 50,
+					"0347": 50
+				}
+			}
+		},
 		"rusturf_tunnel": {
 			"wild": {
 				"encounters": {
 					"0293": 100
+				}
+			}
+		},
+		"safari_zone": {
+			"northeast_wild": {
+				"encounters": {
+					"0043": 30,
+					"0231": 30,
+					"0044": 15,
+					"0177": 15,
+					"0178": 5,
+					"0214": 5
+				}
+			},
+			"northeast_rock_smash": {
+				"encounters": {
+					"0074": 100
+				}
+			},
+			"northwest_wild": {
+				"encounters": {
+					"0043": 30,
+					"0111": 30,
+					"0044": 15,
+					"0084": 15,
+					"0085": 5,
+					"0214": 5
+				}
+			},
+			"northwest_surf": {
+				"encounters": {
+					"0054": 95,
+					"0055": 5
+				}
+			},
+			"northwest_fish_old": {
+				"encounters": {
+					"0129": 70,
+					"0118": 30
+				}
+			},
+			"northwest_fish_good": {
+				"encounters": {
+					"0129": 60,
+					"0118": 40
+				}
+			},
+			"northwest_fish_super": {
+				"encounters": {
+					"0118": 80,
+					"0119": 20
+				}
+			},
+			"southwest_wild": {
+				"encounters": {
+					"0043": 40,
+					"0203": 20,
+					"0084": 10,
+					"0177": 10,
+					"0202": 10,
+					"0025": 5,
+					"0044": 5
+				}
+			},
+			"southwest_surf": {
+				"encounters": {
+					"0054": 100
+				}
+			},
+			"southwest_fish_old": {
+				"encounters": {
+					"0129": 70,
+					"0118": 30
+				}
+			},
+			"southwest_fish_good": {
+				"encounters": {
+					"0129": 60,
+					"0118": 40
+				}
+			},
+			"southwest_fish_super": {
+				"encounters": {
+					"0118": 80,
+					"0119": 20
+				}
+			},
+			"southeast_wild": {
+				"encounters": {
+					"0043": 40,
+					"0203": 20,
+					"0084": 10,
+					"0177": 10,
+					"0202": 10,
+					"0025": 5,
+					"0044": 5
+				}
+			},
+			"extension_north_wild": {
+				"encounters": {
+					"0190": 30,
+					"0216": 30,
+					"0165": 10,
+					"0191": 10,
+					"0163": 5,
+					"0204": 5,
+					"0228": 5,
+					"0241": 5
+				}
+			},
+			"extension_north_rock_smash": {
+				"encounters": {
+					"0213": 100
+				}
+			},
+			"extension_south_wild": {
+				"encounters": {
+					"0179": 30,
+					"0191": 30,
+					"0167": 10,
+					"0190": 10,
+					"0163": 5,
+					"0207": 5,
+					"0209": 5,
+					"0234": 5
+				}
+			},
+			"extension_south_surf": {
+				"encounters": {
+					"0194": 60,
+					"0183": 39,
+					"0195": 1
+				}
+			},
+			"extension_south_fish_old": {
+				"encounters": {
+					"0129": 70,
+					"0118": 30
+				}
+			},
+			"extension_south_fish_good": {
+				"encounters": {
+					"0129": 60,
+					"0118": 20,
+					"0223": 20
+				}
+			},
+			"extension_south_fish_super": {
+				"encounters": {
+					"0223": 59,
+					"0118": 40,
+					"0224": 1
+				}
+			}
+		},
+		"seafloor_cavern": {
+			"entrance_wild": {
+				"encounters": {
+					"0041": 90,
+					"0042": 10
+				}
+			},
+			"entrance_surf": {
+				"encounters": {
+					"0072": 60,
+					"0041": 35,
+					"0042": 5
+				}
+			},
+			"entrance_fish_old": {
+				"encounters": {
+					"0129": 70,
+					"0072": 30
+				}
+			},
+			"entrance_fish_good": {
+				"encounters": {
+					"0129": 60,
+					"0072": 20,
+					"0320": 20
+				}
+			},
+			"entrance_fish_super": {
+				"encounters": {
+					"0320": 100
+				}
+			},
+			"room_6_surf": {
+				"encounters": {
+					"0072": 60,
+					"0041": 35,
+					"0042": 5
+				}
+			},
+			"room_6_fish_old": {
+				"encounters": {
+					"0129": 70,
+					"0072": 30
+				}
+			},
+			"room_6_fish_good": {
+				"encounters": {
+					"0129": 60,
+					"0072": 20,
+					"0320": 20
+				}
+			},
+			"room_6_fish_super": {
+				"encounters": {
+					"0320": 100
+				}
+			},
+			"room_7_surf": {
+				"encounters": {
+					"0072": 60,
+					"0041": 35,
+					"0042": 5
+				}
+			},
+			"room_7_fish_old": {
+				"encounters": {
+					"0129": 70,
+					"0072": 30
+				}
+			},
+			"room_7_fish_good": {
+				"encounters": {
+					"0129": 60,
+					"0072": 20,
+					"0320": 20
+				}
+			},
+			"room_7_fish_super": {
+				"encounters": {
+					"0320": 100
+				}
+			}
+		},
+		"shoal_cave": {
+			"high_tide-r1_wild": {
+				"encounters": {
+					"0363": 50,
+					"0041": 45,
+					"0042": 5
+				}
+			},
+			"high_tide-r1_surf": {
+				"encounters": {
+					"0072": 60,
+					"0041": 30,
+					"0363": 10
+				}
+			},
+			"high_tide-r1_fish_old": {
+				"encounters": {
+					"0129": 70,
+					"0072": 30
+				}
+			},
+			"high_tide-r1_fish_good": {
+				"encounters": {
+					"0129": 60,
+					"0072": 20,
+					"0320": 20
+				}
+			},
+			"high_tide-r1_fish_super": {
+				"encounters": {
+					"0320": 100
+				}
+			},
+			"high_tide-r2_wild": {
+				"encounters": {
+					"0363": 50,
+					"0041": 45,
+					"0042": 5
+				}
+			},
+			"high_tide-r2_surf": {
+				"encounters": {
+					"0072": 60,
+					"0041": 30,
+					"0363": 10
+				}
+			},
+			"high_tide-r2_fish_old": {
+				"encounters": {
+					"0129": 70,
+					"0072": 30
+				}
+			},
+			"high_tide-r2_fish_good": {
+				"encounters": {
+					"0129": 60,
+					"0072": 20,
+					"0320": 20
+				}
+			},
+			"high_tide-r2_fish_super": {
+				"encounters": {
+					"0320": 100
+				}
+			},
+			"low_tide-r1_wild": {
+				"encounters": {
+					"0363": 50,
+					"0041": 45,
+					"0042": 5
+				}
+			},
+			"low_tide-r2_wild": {
+				"encounters": {
+					"0363": 50,
+					"0041": 45,
+					"0042": 5
+				}
+			},
+			"low_tide-b1f_wild": {
+				"encounters": {
+					"0363": 50,
+					"0041": 45,
+					"0042": 5
+				}
+			},
+			"low_tide-b2f_wild": {
+				"encounters": {
+					"0363": 50,
+					"0041": 45,
+					"0042": 5
+				}
+			},
+			"low_tide-b3f_wild": {
+				"encounters": {
+					"0363": 45,
+					"0041": 40,
+					"0361": 10,
+					"0042": 5
+				}
+			}
+		},
+		"sky_pillar": {
+			"1f_wild": {
+				"encounters": {
+					"0042": 30,
+					"0344": 26,
+					"0302": 15,
+					"0303": 15,
+					"0354": 7,
+					"0356": 7
+				}
+			},
+			"3f_wild": {
+				"encounters": {
+					"0042": 30,
+					"0344": 26,
+					"0302": 15,
+					"0303": 15,
+					"0354": 7,
+					"0356": 7
+				}
+			},
+			"5f_wild": {
+				"encounters": {
+					"0042": 30,
+					"0344": 20,
+					"0302": 15,
+					"0303": 15,
+					"0354": 7,
+					"0356": 7,
+					"0334": 6
+				}
+			},
+			"static_legendary": {
+				"encounters": {
+					"0384": 100
+				}
+			}
+		},
+		"slateport_city": {
+			"surf": {
+                "encounters": {
+					"0072": 60,
+					"0278": 35,
+					"0279": 5
+				}
+            },
+			"fish_old": {
+				"encounters": {
+					"0129": 70,
+					"0072": 30
+				}
+			},
+			"fish_good": {
+				"encounters": {
+					"0129": 60,
+					"0072": 20,
+					"0320": 20
+				}
+			},
+			"fish_super": {
+				"encounters": {
+					"0320": 100
+				}
+			}
+		},
+		"sootopolis_city": {
+			"surf": {
+				"encounters": {
+					"0129": 100
+				}
+			},
+			"fish_old": {
+				"encounters": {
+					"0129": 70,
+					"0072": 30
+				}
+			},
+			"fish_good": {
+				"encounters": {
+					"0129": 100
+				}
+			},
+			"fish_super": {
+				"encounters": {
+					"0129": 80,
+					"0130": 20
+				}
+			}
+		},
+		"southern_island": {
+			"static_legendary": {
+				"encounters": {
+					"0380": 50,
+					"0381": 50
+				}
+			}
+		},
+		"terra_cave": {
+			"static_legendary": {
+				"encounters": {
+					"0383": 100
+				}
+			}
+		},
+		"victory_road": {
+			"1f_wild": {
+				"encounters": {
+					"0042": 25,
+					"0297": 25,
+					"0041": 10,
+					"0294": 10,
+					"0296": 10,
+					"0305": 10,
+					"0293": 5,
+					"0304": 5
+				}
+			},
+			"b1f_wild": {
+				"encounters": {
+					"0297": 35,
+					"0042": 30,
+					"0305": 15,
+					"0308": 10,
+					"0307": 5,
+					"0303": 5
+				}
+			},
+			"b1f_rock_smash": {
+				"encounters": {
+					"0074": 70,
+					"0075": 30
+				}
+			},
+			"b2f_wild": {
+				"encounters": {
+					"0042": 36,
+					"0302": 17,
+					"0303": 17,
+					"0305": 15,
+					"0308": 15
+				}
+			},
+			"b2f_surf": {
+				"encounters": {
+					"0042": 100
+				}
+			},
+			"b2f_fish_old": {
+				"encounters": {
+					"0129": 70,
+					"0118": 30
+				}
+			},
+			"b2f_fish_good": {
+				"encounters": {
+					"0129": 60,
+					"0118": 20,
+					"0339": 20
+				}
+			},
+			"b2f_fish_super": {
+				"encounters": {
+					"0339": 80,
+					"0340": 20
 				}
 			}
 		},
@@ -329,7 +1308,7 @@
 					"0320": 100
 				}
 			},
-			"static-L": {
+			"static_legendary": {
 				"encounters": {
 					"0378": 100
 				}
@@ -520,7 +1499,7 @@
 					"0074": 100
 				}
 			},
-			"static-L": {
+			"static_legendary": {
 				"encounters": {
 					"0377": 100
 				}
@@ -790,7 +1769,7 @@
 					"0339": 100
 				}
 			},
-			"static-L": {
+			"static_legendary": {
 				"encounters": {
 					"0379": 100
 				}
