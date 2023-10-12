@@ -10,6 +10,113 @@
                 }
             }
         },
+		"abandoned_ship": {
+			"surf": {
+				"encounters": {
+					"0072": 99,
+					"0073": 1
+				}
+			},
+			"fish_old": {
+				"encounters": {
+					"0129": 70,
+					"0072": 30
+				}
+			},
+			"fish_good": {
+				"encounters": {
+					"0129": 60,
+					"0072": 40
+				}
+			},
+			"fish_super": {
+				"encounters": {
+					"0072": 80,
+					"0073": 20
+				}
+			}
+		},
+		"aqua_hideout": {
+			"static": {
+				"encounters": {
+					"0101": 100
+				}
+			}
+		},
+		"artisan_cave": {
+			"wild": {
+				"encounters": {
+					"0235": 100
+				}
+			}
+		},
+		"birth_island": {
+			"static-L": {
+				"encounters": {
+					"0386": 100
+				}
+			}
+		},
+		"cave_of_origin": {
+			"1f_wild": {
+				"encounters": {
+					"0041": 90,
+					"0042": 10
+				}
+			},
+			"1f-2_wild": {
+				"encounters": {
+					"0041": 60,
+					"0302": 15,
+					"0303": 15,
+					"0042": 10
+				}				
+			},
+			"b1f_wild": {
+				"encounters": {
+					"0041": 60,
+					"0302": 15,
+					"0303": 15,
+					"0042": 10
+				}		
+			},
+			"b2f_wild": {
+				"encounters": {
+					"0041": 60,
+					"0302": 15,
+					"0303": 15,
+					"0042": 10
+				}		
+			},
+			"b3f_wild": {
+				"encounters": {
+					"0041": 60,
+					"0302": 15,
+					"0303": 15,
+					"0042": 10
+				}		
+			},
+			"b4f_wild": {
+				"encounters": {
+					"0041": 60,
+					"0302": 15,
+					"0303": 15,
+					"0042": 10
+				}		
+			}
+		},
+		"fiery_path": {
+			"wild": {
+				"encounters": {
+					"0322": 30,
+					"0324": 19,
+					"0066": 15,
+					"0109": 13,
+					"0088": 13,
+					"0218": 10
+				}
+			}
+		},
 		"granite_cave": {
 			"1f_wild": {
 				"encounters": {
@@ -50,6 +157,13 @@
 				"encounters": {
 					"0074": 70,
 					"0299": 30
+				}
+			}
+		},
+		"magma_hideout": {
+			"static": {
+				"encounters": {
+					"0101": 100
 				}
 			}
 		},
