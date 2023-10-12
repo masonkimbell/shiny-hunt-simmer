@@ -31,10 +31,14 @@ class Route:
     def start_huntin(self, player: Player):
 
         def signal_handler(sig, frame):
-            print(f'exit detected . saving {player.name}...')
+            print(f'\nexit detected . saving {player.name}...')
             player.save()
-            print(f'progress for {player.name} saved . goodbye .')
+            print(f'progress for {player.name} saved .\n')
+            player.print(self)
+            print('goodbye .')
             exit()
+
+        print('enter ctrl-c to stop hunting .\n')
 
         # give user time to read the menus
         time.sleep(10)

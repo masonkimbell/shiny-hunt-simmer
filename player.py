@@ -33,6 +33,14 @@ class Player:
 
         return out
 
+    def print(self, route):
+        print(f'printing stats for {self.name}...\n')
+        print(f'encounters done: {self.encounters}')
+        for pkmn in self.dex:
+            if self.dex[pkmn]['found_at']:
+                print(f'{route.map[pkmn]} x{self.dex[pkmn]["found_count"]}')
+        print('')
+
     def save(self):
         try:
             with open('assets/player_data.json', 'r') as f:
