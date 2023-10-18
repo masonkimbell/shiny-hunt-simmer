@@ -57,8 +57,10 @@ class Route:
             p = random.choices(choices, weights=weights)[0]
             s = random.randint(1, odds)
             if s == 1:
-                print(f'{count} - yes {self.map[p].split("_")[0]} ({self.map[p].split("_")[1]})!')
-
+                try:
+                    print(f'{count} - yes {self.map[p].split("_")[0]} ({self.map[p].split("_")[1]}) !')
+                except IndexError:
+                    print(f'{count} - yes {self.map[p]} !')
                 # if regional form, deal with that !!!
                 dexno_and_form = p.split('_')
                 dexno = dexno_and_form[0]
