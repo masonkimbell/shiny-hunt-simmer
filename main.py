@@ -8,8 +8,12 @@ if __name__ == '__main__':
 
     players = load_players()
 
-    print('hello . enter your name .')
-    name = input()
+    if players:
+        for player in players:
+            name = player
+    else:
+        print('hello . enter your name .')
+        name = input()
 
     p = select_player(players, name)
     
