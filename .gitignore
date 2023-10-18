@@ -160,4 +160,5 @@ cython_debug/
 #.idea/
 
 generate_routes.py
-player_data.json
+player_data*.json
+dev_assets/
