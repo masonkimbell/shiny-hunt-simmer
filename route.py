@@ -35,7 +35,7 @@ class Route:
             print(f'\nexit detected . saving {player.name}...')
             player.save()
             print(f'progress for {player.name} saved .\n')
-            player.print(self)
+            player.print()
             print('goodbye .')
             exit()
 
@@ -55,10 +55,29 @@ class Route:
             s = random.randint(1, odds)
             if s == 1:
                 print(f'{count} - yes {self.map[p]} !')
-                if not player.dex[p]['found_at']:
-                    player.dex[p]['found_at'] = time.time()
-                player.dex[p]['found_count'] += 1
-                player.dex[p]['name'] = self.map[p]
+
+                # if regional form, deal with that !!!
+                dexno_and_form = p.split('-')
+                dexno = dexno_and_form[0]
+                name = self.map[p].split('-')[0]
+
+
+                # set found time, count, add name to pokedex
+                if not player.dex[dexno]['found_at']:
+                    player.dex[dexno]['found_at'] = time.time()
+                player.dex[dexno]['found_count'] += 1
+                player.dex[dexno]['name'] = name
+
+                # set what regions this pokemon has been found in
+                if self.region_name not in player.dex[dexno]['found_in']:
+                    player.dex[dexno]['found_in'].append(self.region_name)
+                
+                # set what form has been found if this pokemon has multiple forms
+                if len(dexno_and_form) > 1:
+                    form = dexno_and_form[1]
+                    if form not in player.dex[dexno]['forms']:
+                        player.dex[dexno]['forms'].append(form)
+
                 player.save()
             else:
                 print(f'{count} - no .')

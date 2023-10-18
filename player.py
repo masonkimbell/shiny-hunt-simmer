@@ -27,18 +27,23 @@ class Player:
             out[key] = {
                 'name': None,
                 'found_at': None,
-                'found_count': 0
+                'found_count': 0,
+                'found_in': [],
+                'forms': []
             }
             start += 1
 
         return out
 
-    def print(self, route):
+    def print(self):
         print(f'printing stats for {self.name}...\n')
         print(f'encounters done: {self.encounters}')
         for pkmn in self.dex:
             if self.dex[pkmn]['found_at']:
-                print(f'{route.map[pkmn]} x{self.dex[pkmn]["found_count"]}')
+                if len(self.dex[pkmn]['forms']) > 1:
+                    print(f'{self.dex[pkmn]["name"]} x{self.dex[pkmn]["found_count"]} {self.dex[pkmn]["forms"]}')
+                else:
+                    print(f'{self.dex[pkmn]["name"]} x{self.dex[pkmn]["found_count"]}')
         print('')
 
     def save(self):
