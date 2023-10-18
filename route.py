@@ -26,7 +26,10 @@ class Route:
         enc_list = f'\nencounters on {self.name}:\n'
         for idx, _ in enumerate(self.encounters):
             enc_rate = self.encounter_rates[idx] if self.encounter_rates[idx] <= 99 else 99
-            enc_list += f' - {self.map[self.encounters[idx]]} @ {enc_rate}%\n'
+            try:
+                enc_list += f' - {self.map[self.encounters[idx]].split("_")[0]} ({self.map[self.encounters[idx]].split("_")[1]}) @ {enc_rate}%\n'
+            except IndexError:
+                enc_list += f' - {self.map[self.encounters[idx]]} @ {enc_rate}%\n'
         print(enc_list)
 
     def start_huntin(self, player: Player):
@@ -54,12 +57,12 @@ class Route:
             p = random.choices(choices, weights=weights)[0]
             s = random.randint(1, odds)
             if s == 1:
-                print(f'{count} - yes {self.map[p]} !')
+                print(f'{count} - yes {self.map[p].split("_")[0]} ({self.map[p].split("_")[1]})!')
 
                 # if regional form, deal with that !!!
-                dexno_and_form = p.split('-')
+                dexno_and_form = p.split('_')
                 dexno = dexno_and_form[0]
-                name = self.map[p].split('-')[0]
+                name = self.map[p].split('_')[0]
 
 
                 # set found time, count, add name to pokedex
