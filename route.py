@@ -25,7 +25,7 @@ class Route:
     def print(self):
         enc_list = f'\nencounters on {self.name}:\n'
         for idx, _ in enumerate(self.encounters):
-            enc_rate = self.encounter_rates[idx] if self.encounter_rates[idx] <= 99 else 99
+            enc_rate = self.encounter_rates[idx] if self.encounter_rates[idx] <= 100 else 99
             try:
                 enc_list += f' - {self.map[self.encounters[idx]].split("_")[0]} ({self.map[self.encounters[idx]].split("_")[1]}) @ {enc_rate}%\n'
             except IndexError:
